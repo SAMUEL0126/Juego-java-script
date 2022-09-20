@@ -1,0 +1,34 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.contenedor{
+    padding: 0px;
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(131, 131, 244);
+    border: 10px dashed blue;
+    margin-top: 50px;
+}
+#jugador{
+   background-image: url(../avatarCatt.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    position: absolute;
+    transition: all 0.3s;
+}
+.puntos{
+    background-color: #444;
+    height: 30px;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 0px;
+}
